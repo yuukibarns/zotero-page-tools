@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "PDF Page Tools",
+  "version": "0.1.2",
+  "description": "Copy the current PDF page as an image or PDF file, and export page ranges.",
+  "author": "yuukibarns",
+  "applications": { "zotero": {
+    "id": "pdf-page-tools@yuukibarns",
+    "update_url": "https://raw.githubusercontent.com/yuukibarns/zotero-page-tools/main/updates.json",
+    "strict_min_version": "10.0",
+    "strict_max_version": "10.*"
+  } }
+}

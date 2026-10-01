@@ -1,0 +1,10 @@
+{
+  "name": "zotero-pdf-page-tools",
+  "version": "0.1.2",
+  "private": true,
+  "scripts": {
+    "test": "node test.cjs",
+    "test:zotero": "node test-worker.cjs"
+  },
+  "devDependencies": { "jsdom": "^30.0.1" }
+}
