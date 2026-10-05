@@ -14,6 +14,6 @@ for field in ("id", "update_url", "strict_max_version"):
 if manifest["version"] != json.loads((root / "package.json").read_text())["version"]:
     raise ValueError("Manifest and package versions must agree")
 with zipfile.ZipFile(target, "w", zipfile.ZIP_DEFLATED) as archive:
-    for name in ("manifest.json", "bootstrap.js", "page-tools.js", "README.md"):
+    for name in ("manifest.json", "bootstrap.js", "page-tools.js", "README.md", "icon.svg"):
         archive.write(root / name, name)
 print(target)
