@@ -1,7 +1,7 @@
 {
   "addons": {
     "pdf-page-tools@yuukibarns": {
-      "updates": []
+      "updates": [{"version":"0.1.3","update_link":"https://github.com/yuukibarns/zotero-page-tools/releases/download/v0.1.3/pdf-page-tools-0.1.3.xpi","update_hash":"sha256:1bcdb11ac2ff0caef5fda6e0b9e177e982e0f80547f59a1aa0ef8875ebfe7f06","applications":{"zotero":{"strict_min_version":"10.0","strict_max_version":"10.*"}}}]
     }
   }
 }
